@@ -459,7 +459,7 @@ footer .install img{
   border: 1px solid #088178;
 }
 
-footer .section-p1 .copyright {
+footer .copyright {
   text-align: center;
   margin-top: 20px;
 }
@@ -469,10 +469,6 @@ footer .copyright p {
   color: #666;
 }
 
-footer .copyright {
-  text-align: center;
-  margin-top: auto; /* Push the copyright notice to the bottom */
-}
 
 /* shop page styling start from here */
 

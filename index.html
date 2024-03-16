@@ -10,6 +10,30 @@
 </head>
 
 <body>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-database.js"></script>
+<!-- Or if using Cloud Firestore -->
+<!-- <script src="https://www.gstatic.com/firebasejs/9.6.8/firebase-firestore.js"></script> -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBiKJVJOs2hCfrJNu5wC7cU2MbQdqGyyEY",
+  authDomain: "rent-a-tech.firebaseapp.com",
+  projectId: "rent-a-tech",
+  storageBucket: "rent-a-tech.appspot.com",
+  messagingSenderId: "31951692998",
+  appId: "1:31951692998:web:c802e7ea2f31e0cc7463c7"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
     <section id="header">
         <!-- <a href="#"><img src="img/logo.png" class="logo" alt=""></a> -->
         <h4>Rent-A-Tech</h4>
@@ -78,7 +102,7 @@
                 <div class="des">
                     <span>Apple</span>
                     <h5>MacBook Pro M1/16GB/512GB/16" Screen/Integrated Graphic/Wifi</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -86,7 +110,7 @@
                 <div class="des">
                     <span>Apple</span>
                     <h5>MacBook Pro M1/16GB/512GB/16" Screen/Integrated Graphic/Wifi</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -94,7 +118,7 @@
                 <div class="des">
                     <span>HP</span>
                     <h5>Laptop core i7 8th Gen and above/8GB/512GB SSD/14"</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -102,7 +126,7 @@
                 <div class="des">
                     <span>HP</span>
                     <h5>Laptop core i7 8th Gen and above/8GB/512GB SSD/14"</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -110,7 +134,7 @@
                 <div class="des">
                     <span>Apple</span>
                     <h5>iPad Pro/64GB/Wifi/11.2" and above Screen /Latest iOSs</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -118,7 +142,7 @@
                 <div class="des">
                     <span>Samsung</span>
                     <h5>Samsung Tab A8/4GB/64GB/10.5" Screen/Wi-fi</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -126,7 +150,7 @@
                 <div class="des">
                     <span>Apple</span>
                     <h5>iPad 9th Gen and above/64GB/Wifi/10.2" Screen/Latest iOS</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
             <div class="pro">
@@ -134,7 +158,7 @@
                 <div class="des">
                     <span>adidas</span>
                     <h5>Cartoon Astronaut T-shirts</h5>
-                    <button class="normal">Get Quote</button>
+                    <button class="normal">Add To Cart</button>
                 </div>
             </div>
         </div>
